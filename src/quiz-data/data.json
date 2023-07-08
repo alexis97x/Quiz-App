@@ -1,0 +1,522 @@
+[
+    {
+        "id": 1,
+        "name": "Math",
+        "img": "https://www.bwseducationconsulting.com/wp-content/uploads/2020/08/bws-maths-tutoring.jpg",
+        "created_by": "Joren",
+        "questions": [
+            {
+                "id": 1,
+                "text": "1 + 1 = ?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "2",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "3",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "4",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "35 / 5 = ?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "4",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "7",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "2",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "6",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "6 x 6 = ?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "36",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "72",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "42",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "32",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "34 + 35 = ?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "96",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "59",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "68",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "69",
+                        "is_correct": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Science",
+        "img": "https://beyondexclamation.com/wp-content/uploads/2020/12/10-1.jpg",
+        "created_by": "John Doe",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the largest planet in our solar system?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Mars",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Saturn",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Venus",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Jupiter",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "What is the closest star to Earth",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Venus",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Mars",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Moon",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Sun",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What is the force that pulls objects towards the center of the Earth called?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Gravity",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Magnetism",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Friction",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Inertia",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "History",
+        "img": "https://mudabicara.com/en/wp-content/uploads/sites/4/2022/07/istockphoto-1092170968-612x612-1.jpg",
+        "created_by": "DreamyBullXXx",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Who is known as the national hero of the Philippines?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Emilio Aguinaldo",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Jose Rizal",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Andres Bonifacio",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ferdinand Marcos",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Who is credited with painting the Mona Lisa?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Who is credited with painting the Mona Lisa?",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Vincent van Gogh",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Vincent van Gogh",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Leonardo da Vinci",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which ancient civilization built the pyramids of Egypt?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Aztecs",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Mayans",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 31,
+                        "label": "C",
+                        "text": "Egyptians",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Greeks",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "DBMS",
+        "img": "https://cyberdessy.com/wp-content/uploads/2023/01/dbms-full-form.png",
+        "created_by": "Thug Shaker",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Who is known as the national hero of the Philippines?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Emilio Aguinaldo",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Jose Rizal",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Andres Bonifacio",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ferdinand Marcos",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Who is credited with painting the Mona Lisa?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Who is credited with painting the Mona Lisa?",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Vincent van Gogh",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Vincent van Gogh",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Leonardo da Vinci",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which ancient civilization built the pyramids of Egypt?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Aztecs",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Mayans",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 31,
+                        "label": "C",
+                        "text": "Egyptians",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Greeks",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Physical Education",
+        "img": "https://img.freepik.com/free-vector/hand-drawn-physical-education-day-lettering_23-2149034048.jpg?w=2000",
+        "created_by": "Ariana Grande",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Who is known as the national hero of the Philippines?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Emilio Aguinaldo",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Jose Rizal",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Andres Bonifacio",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ferdinand Marcos",
+                        "is_correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Who is credited with painting the Mona Lisa?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Who is credited with painting the Mona Lisa?",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Vincent van Gogh",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Vincent van Gogh",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Leonardo da Vinci",
+                        "is_correct": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Which ancient civilization built the pyramids of Egypt?",
+                "choices": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Aztecs",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Mayans",
+                        "is_correct": false
+                    },
+                    {
+                        "id": 31,
+                        "label": "C",
+                        "text": "Egyptians",
+                        "is_correct": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Greeks",
+                        "is_correct": false
+                    }
+                ]
+            }
+        ]
+    }
+]
