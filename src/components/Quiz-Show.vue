@@ -1,31 +1,24 @@
 <script setup>
 
     import quizes from '../quiz-data/data.json'
-    import { useRoute, RouterView, RouterLink, useRouter } from 'vue-router';
-
+    import { useRoute, RouterView, useRouter } from 'vue-router';
+    import Question from '../components/Question.vue'
+    import QuestionHeader from './Question-Header.vue'
+    import {ref, watch} from 'vue'
+    const currentQuestionIndex = ref(0)
     const route = useRoute()
-    const router = useRouter()
-
-    const quiz = quizes.find(quiz => quiz.id === parseInt(route.params.id)) 
-
+    const quiz = quizes.find(quiz => quiz.id === parseInt(route.params.id))
+    let quizBarPercentage = ((currentQuestionIndex.value + 1) * 100) / quiz.questions.length
+    watch(currentQuestionIndex, () => {
+        quizBarPercentage = ((currentQuestionIndex.value + 1) * 100) / quiz.questions.length
+    })
 </script>
 
 <template>
     <div>
-        <div class="row " v-if="quiz">
-        
-            <div class="col-1"> <button class="btn btn-primary" @click="router.back()">Back</button> </div>
-            <div class="col-2">  <h1> {{  quiz.name }} </h1></div>
-            <div class="col mt-3">
-                <button @click="router.push(`/quiz/${quiz.id}/creator`)" class="btn">Who created this mf?</button>
-                <!-- could work but idk -->
-                <!-- <RouterLink :to="`/quiz/${quiz.id}/creator`">Who created this?</RouterLink> -->
-
-            </div>
-        </div>
-        <div class="row text-center text-danger mt-5" v-else>
-            <h1>No Quiz Found :3</h1>
-        </div>
+        <QuestionHeader />
+        <Question :question="quiz.questions[currentQuestionIndex]" :quizBarPercentage="quizBarPercentage" :question-length="quiz.questions.length" />
+        <button class="btn btn-primary" @click="currentQuestionIndex++">Next</button>
         <RouterView />
         
     </div>
@@ -33,4 +26,5 @@
 
 <style scoped>
 
+    
 </style>
