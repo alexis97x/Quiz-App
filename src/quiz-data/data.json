@@ -96,7 +96,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "text": "34 + 35 = ?",
                 "choices": [
                     {
@@ -224,7 +224,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "text": "What is your vital organism statistics?",
                 "choices": [
                     {

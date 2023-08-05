@@ -1,7 +1,13 @@
 <script setup>
 
-    import { defineProps } from 'vue';
+    import { defineProps, defineEmits } from 'vue';
+
+    const emit = defineEmits('selectChoice')
     const question = defineProps(['question', 'questionLength', 'quizBarPercentage'])
+
+    const emitSelectChoice = (is_correct) => {
+        emit('selectChoice', is_correct)
+    }
 
 </script>
 
@@ -16,7 +22,7 @@
             <div class="row">
                 <h2>{{ question.question.text }}</h2>
             </div>
-            <div class="row fs-3 choice" v-for="choice in question.question.choices" :key="choice.id">
+            <div class="row fs-3 choice" @click="emitSelectChoice(choice.is_correct)" v-for="choice in question.question.choices" :key="choice.id">
                 <div class="col-1 rounded-start text-center letter">{{choice.label}}</div>
                 <div class="col-11 text rounded-end">{{ choice.text }}</div>
             </div>
@@ -28,6 +34,7 @@
     .completion {
         width: 300px;
         background-color: rgb(236, 248, 249);
+        border: 2px solid rgb(5, 191, 219);
     }
 
     .choice {
