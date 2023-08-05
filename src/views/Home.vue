@@ -13,10 +13,6 @@
 </script>
 
 <template>
-    <v-btn>
-      Submit
-    </v-btn>
-    <Sidebar />
     <div>
       <header>
       <div class="row mt-2 justify-content-around ">
